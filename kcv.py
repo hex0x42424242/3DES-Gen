@@ -66,10 +66,10 @@ data4 = combined.encrypt(value)
 
 loading = 'Calculando KCV, aguarde...'
 sleep(0.6)
-print('KCV: Component 1' + str(binascii.hexlify(data)[0:6]))
+print('KCV: Component 1: ' + str(binascii.hexlify(data)[0:6]))
 sleep(0.1)
-print('KCV2: Component 2' + str(binascii.hexlify(data2)[0:6]))
+print('KCV2: Component 2: ' + str(binascii.hexlify(data2)[0:6]))
 sleep(0.1)
-print('KCV3: Component 3' + str(binascii.hexlify(data3)[0:6]))
+print('KCV3: Component 3: ' + str(binascii.hexlify(data3)[0:6]))
 sleep(0.1)
 print('KCV Combined Key: ' + str(binascii.hexlify(data4)[0:6]))
