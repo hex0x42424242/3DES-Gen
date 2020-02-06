@@ -50,7 +50,7 @@ key2 = binascii.unhexlify(key2)
 key3 = binascii.unhexlify(key3)
 combined_key = binascii.unhexlify(combined_key)
 
-print('Componet 1: ' + str(key))
+print('Component 1: ' + str(key))
 print('Component 2: ' + str(key2))
 print('Component 3: ' + str(key3))
 print('Combined Key: ' + str(combined_key))
